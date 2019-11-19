@@ -1,0 +1,191 @@
+body {
+margin: 0;
+margin-top: 100px;
+font-family: sans-serif;
+}
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    line-height: 100px;
+    background-color: #AAC4D1;   
+}
+header * {
+    display: inline;
+    height: 100px;
+}
+header ul {
+    padding: 0;
+}
+header li {
+    margin-left: 20px;
+}
+section {
+    height: 460px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section-inner h1 {
+    font-family: 'Rochester' ,cursive;
+    background-color: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.section-inner img{
+    margin-top: 50px;
+    border-radius:50%;
+    width:400px;
+}
+
+#home .bluebg {
+    width: 300px;
+    border-radius: 50%;
+}
+#footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #AAC4D1;
+    height: 50px;
+}
+#home h1{
+    font-size: 3em;
+}
+section h2 {
+    font-size: 2.5em;
+    font-family: 'Roboto Condensed', monospace;
+}
+section h3{
+    font-size: 1.5em;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+#home {
+    background-image: url("pinkbg.jpg");
+}
+#about {
+    background-image: url("wenk.jpg");
+}
+#contact {
+    background-image: url("wenk.jpg");
+}
+.about-inner {
+    background-color: lightpink; 
+    width:800px;
+    height:250px;
+}
+.contact-inner {
+    background-color: lightgoldenrodyellow; 
+    width:800px;
+    height:200px;
+}
+
+#parents {
+  margin: 0;
+display: flex;
+  height: 60%;
+  font-size: 20px;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("amanda.png");
+    font-family: 'Calistoga', cursive;
+}
+
+.parents-inner h2 {
+    font-family: 'Calistoga', cursive;
+}
+
+#brother {
+    height: 70%;
+    display: flex;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("cute2.jpg");
+    margin-top: auto;
+    font-size: 20px;
+    font-family: 'Calistoga', cursive;
+}
+
+.brother-inner h2 {
+    font-family: 'Calistoga', cursive;
+}
+
+#friends {
+    height: 60%;
+    display: flex;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("cute3.jpg");
+    font-size: 20px;
+    font-family: 'Calistoga', cursive;
+}
+
+.friends-inner h2 {
+    font-family: 'Calistoga', cursive;
+}
+
+#pics{
+    background-image:  linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("bluebg.jpg");
+}
+
+.picsp-top {
+    margin-left: 75px;
+    margin-right: 60px;
+     display: flex;
+}
+
+.picsb-top {
+    margin-left: 75px;
+    margin-left: 75px;
+    margin-right: 50px;
+     display: flex;
+}
+
+.picsf-top {
+    margin-left: 45px;
+    margin-right: 40px;
+     display: flex;
+}
+
+
+.row {
+  width: auto
+  height: 200px
+}
+/* Create two equal columns that sits next to each other */
+.column {
+  width: auto
+  height: 200px
+}
+.column img {
+    width: auto;
+    height: 200px;
+}
+
+.color {
+ width: 100%;
+ height: 100%;
+ float: left;
+    background-color: #235E6F;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.sky {
+  height: 100%;
+  color: #FFF;
+  display: block;
+}
+
+.picsp-bottom {
+    height: 80px;
+}
